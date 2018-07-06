@@ -6,7 +6,7 @@ original data files. Each data file contains 100,000 lines of QA pairs where the
 questions are the posts and the answers are the comments from BaiduTieba. These
 files are used to train a NLP model at MIX.
 
-_Currently cannot upload baidutieba/ because of slow WiFi_
+_Currently cannot upload baidutieba/ because of slow WiFi._
 
 ## Overview
 The data is first cleaned by removing lines of "garbage" that weren't useful for
@@ -29,7 +29,7 @@ separates the 100,000 lines into three cases found in the data/ folder. The
 three cases are garabage, ads, and regular comments that can be used to train
 the NLP model. From here, the ads.txt and comments.txt files were used to train
 the NB classifier. I then ran the NB classifer using naive.py on all the cleaned
-baidutieba files (clean/baidutieba_**_clean.txt) which separats each clean file
-into a "more clean" file called naive/baidutieba_**_clean_nb.txt and the ads
+baidutieba files (clean/baidutieba\_**\_clean.txt) which separats each clean file
+into a "more clean" file called naive/baidutieba\_**\_clean_nb.txt and the ads
 found using the NB classifier into the file called 
-naive_ad/baidutieba_**_ads.txt.
+naive\_ad/baidutieba\_**\_ads.txt.
