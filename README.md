@@ -29,10 +29,8 @@ separates the 100,000 lines into three cases found in the data/ folder. The
 three cases are garabage, ads, and regular comments that can be used to train
 the NLP model. From here, the ads.txt and comments.txt files were used to train
 the NB classifier. I then ran the NB classifer using naive.py on all the cleaned
-baidutieba files (clean/baidutieba_**_clean.txt) which separats each clean file
-into a "more clean" file called naive/baidutieba_**_clean_nb.txt and the ads
-found using the NB classifier into the file called 
-naive_ad/baidutieba_**_ads.txt.
+baidutieba files which separats each clean file
+into a "more clean" file and the ads found using the NB classifier.
 
 An example of an ad found using the NB classifier is:
 别再买假学历了！4月起，北京正式开放成人大学录取通道，毕业就是本科学历. As this ad does
